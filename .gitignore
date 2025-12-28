@@ -1,0 +1,68 @@
+############################
+# Java / Maven
+############################
+
+# Maven build output
+target/
+
+# Compiled Java artifacts
+*.class
+
+# Maven release & backup files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+############################
+# Maven Wrapper
+############################
+
+# Ignore wrapper download timing info
+.mvn/timing.properties
+
+# Commit the Maven Wrapper JAR intentionally
+# (required for mvnw to work offline / consistently)
+!.mvn/wrapper/maven-wrapper.jar
+
+############################
+# IDEs
+############################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code (keep user config out of repo)
+.vscode/
+
+############################
+# OS / Editor noise
+############################
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Temporary / backup files
+*~
+*.swp
+*.tmp
+*.log
+
+############################
+# Advent of Code inputs
+############################
+
+# KEEP inputs committed (intentional)
+# If you later decide NOT to commit inputs,
+# uncomment the following line instead:
+# java-advent-of-code/inputs/**
